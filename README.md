@@ -2,6 +2,6 @@
 
 Description of files:
 
-*FitnessStats.R                   Analysis of survival and growth data
+*FitnessStats.R - Analysis of survival and growth data
 
-*GeneExpression.RWGCNA            Analysis and correlations with fitness data
+*GeneExpression.R  - WGCNA Analysis and correlations with fitness data
