@@ -6,4 +6,4 @@ Description of files:
 
 *GeneExpression.R  - WGCNA Analysis and correlations with fitness data
 
-*VariancePermutations.R - Comparison in survival variation between pools
+*VariancePermutations.R - Comparison in survival variation between sites
