@@ -14,7 +14,7 @@ sdpermMV[i] <- sd(agg$x[which(agg$Or=="MV")])
 }
 
 ##Calculate real standard deviation within each pool
-realSurv <- aggregate(trans$Survival,list(Col=trans$Colony,Or=trans$Origin),mean,na.rm=T)
+ag <- aggregate(trans$Survival,list(Col=trans$Colony,Or=trans$Origin),mean,na.rm=T)
 realsd=sd(ag$x)
 realsdHV <- sd(ag$x[which(ag$Or=="HV")])
 realsdMV <- sd(ag$x[which(ag$Or=="MV")])
